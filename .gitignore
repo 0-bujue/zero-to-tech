@@ -1,11 +1,11 @@
-# dependencies
+# dependencies(这是npm install)
 node_modules/
 
-# next.js
+# next.js(这是npm run build )
 .next/
 out/
 
-# production
+# production（这是vite react）
 build/
 dist/
 
@@ -17,3 +17,5 @@ dist/
 .DS_Store
 *.log
 .env*
+
+backend/.venv/
