@@ -18,5 +18,5 @@ class Handler(BaseHTTPRequestHandler):
             self.send_response(404)
             self.end_headers()
 
-print("后端已启动：http://localhost:8000/api/profile")
+print("后端已启动：http://localhost:8000")
 HTTPServer(("", 8000), Handler).serve_forever()
